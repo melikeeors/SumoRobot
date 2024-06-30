@@ -14,6 +14,7 @@ Our project focuses on developing an Arduino sumo robot, a compact and agile mac
 
 # Why are we selecting this project? 
 We selected this project for several reasons:
+
 ·	Educational Value: It offers a practical application of embedded systems and robotics concepts learned in class.
 
 ·	Technical Challenge: Building a competitive sumo robot requires integrating hardware and software components effectively.
@@ -25,6 +26,7 @@ We selected this project for several reasons:
 ·	Skill Development: Participants gain skills in programming, electronics, mechanical design, and project management.
 
 # Advantages:
+
 ·	Enhances understanding of embedded systems and robotics.
 
 ·	Provides hands-on experience in hardware integration and software development.
@@ -54,8 +56,7 @@ We selected this project for several reasons:
 
 # Hardware Setup
 
-·	Motors and Motor Driver:
-  o	The motors are connected to the motor driver board, which is controlled by the Arduino Nano. The motor driver allows us to control the speed and direction of each motor independently.
+·	Motors and Motor Driver:	The motors are connected to the motor driver board, which is controlled by the Arduino Nano. The motor driver allows us to control the speed and direction of each motor independently.
   
 ·	Sensors:
   1.	The Ultrasonic Sensor HC-SR04 is mounted at the front of the robot to detect obstacles. It sends out ultrasonic waves and measures the time taken for the waves to return after hitting an object, thus calculating the distance.
