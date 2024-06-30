@@ -70,6 +70,3 @@ We selected this project for several reasons:
   1.	Continuously read sensor values and make decisions based on the sensor inputs.
   2. Control motor speed and direction to navigate the arena and engage with the opponent.
   3.	Update the OLED display with relevant information or animations.
-
-# Conclusion
-Through systematic testing and optimization, the sumo robot’s sensors and motor functions were fine-tuned to enhance performance and reliability. The adjustments to sensor thresholds and motor control logic significantly improved the robot’s ability to navigate and respond to its environment, resulting in better competitive performance.
