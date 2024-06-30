@@ -68,6 +68,7 @@ We selected this project for several reasons:
 # Code Implementation
 
 ·	Initialization:	Setup pin modes for motors, sensors, and the OLED display.
+
 ·	Main Loop:
   1.	Continuously read sensor values and make decisions based on the sensor inputs.
   2. Control motor speed and direction to navigate the arena and engage with the opponent.
