@@ -15,16 +15,24 @@ Our project focuses on developing an Arduino sumo robot, a compact and agile mac
 # Why are we selecting this project? 
 We selected this project for several reasons:
 ·	Educational Value: It offers a practical application of embedded systems and robotics concepts learned in class.
+
 ·	Technical Challenge: Building a competitive sumo robot requires integrating hardware and software components effectively.
+
 ·	Creative Problem-Solving: Designing algorithms for navigation and opponent detection challenges us to think innovatively.
+
 ·	Engagement: Robot battles are exciting and visually appealing, making the project engaging for both creators and spectators.
+
 ·	Skill Development: Participants gain skills in programming, electronics, mechanical design, and project management.
 
 # Advantages:
 ·	Enhances understanding of embedded systems and robotics.
+
 ·	Provides hands-on experience in hardware integration and software development.
+
 ·	Fosters creativity and problem-solving skills through algorithm design.
+
 ·	Engages participants in competitive and visually appealing robot battles.
+
 ·	Offers educational value for students, educators, and robotics enthusiasts alike.
  
 # Components List
