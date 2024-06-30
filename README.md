@@ -60,7 +60,9 @@ We selected this project for several reasons:
 # Software Design
 
 ·	Navigation and Obstacle Avoidance:	The robot uses the ultrasonic sensor to avoid obstacles. If an object is detected within a certain distance, the robot will change direction to avoid it.
+
 ·	Edge Detection:	The infrared sensors constantly monitor the surface color. If a sensor detects a white surface, the robot will move away from the edge to avoid falling out of the ring.
+
 ·	Movement and Strategy:	The motors are controlled to execute various movements such as moving forward, backward, and rotating. These movements are combined to create strategies for pushing the opponent out of the ring.
   
 # Code Implementation
