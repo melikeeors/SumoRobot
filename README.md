@@ -28,32 +28,19 @@ We selected this project for several reasons:
 ·	Offers educational value for students, educators, and robotics enthusiasts alike.
  
 # Components List
-1.	Arduino Nano & Uno
-  o	Microcontroller boards used for programming and controlling the robot's functions.
-2.	Breadboard
-  o	A platform for building and testing electronic circuits.
-3.	Ultrasonic Sensor HC-SR04
-  o	Sensor for measuring the distance to obstacles using ultrasonic waves.
-4.	Infrared Sensor TCRT5000 (x2)
-  o	Sensors for detecting surface colors (black or white) to help with navigation and positioning.
-5.	DC Motor (x2)
-  o	Motors for driving the robot's wheels.
-6.	Motor Driver Board
-  o	Interface between the Arduino and the motors, allowing for control of motor speed and direction.
-7.	OLED 1.8" Display
-  o	Small screen for displaying animations.
-8.	Switch
-  o	Used to power the robot on and off.
-9.	Robot Body
-  o	The chassis that houses all the components and provides structural integrity.
-10.	Battery (x4)
-  o	Power source for the robot.
-11.	Battery House
-  o	Holder for the batteries.
-12.	Jumper Wires
-  o	Wires for making electrical connections between components.
-13.	Miscellaneous Materials
-  o	Additional materials for designing and assembling the robot.
+1.	Arduino Nano & Uno:	Microcontroller boards used for programming and controlling the robot's functions.
+2.	Breadboard:	A platform for building and testing electronic circuits.
+3.	Ultrasonic Sensor HC-SR04:	Sensor for measuring the distance to obstacles using ultrasonic waves.
+4.	Infrared Sensor TCRT5000 (x2):	Sensors for detecting surface colors (black or white) to help with navigation and positioning.
+5.	DC Motor (x2):	Motors for driving the robot's wheels.
+6.	Motor Driver Board:	Interface between the Arduino and the motors, allowing for control of motor speed and direction.
+7.	OLED 1.8" Display:	Small screen for displaying animations.
+8.	Switch:	Used to power the robot on and off.
+9.	Robot Body:	The chassis that houses all the components and provides structural integrity.
+10.	Battery (x4):	Power source for the robot.
+11.	Battery House:	Holder for the batteries.
+12.	Jumper Wires:	Wires for making electrical connections between components.
+13.	Miscellaneous Materials:	Additional materials for designing and assembling the robot.
 
 # Detailed Description and Functions
 
@@ -63,32 +50,26 @@ We selected this project for several reasons:
   o	The motors are connected to the motor driver board, which is controlled by the Arduino Nano. The motor driver allows us to control the speed and direction of each motor independently.
   
 ·	Sensors:
-  o	The Ultrasonic Sensor HC-SR04 is mounted at the front of the robot to detect obstacles. It sends out ultrasonic waves and measures the time taken for the waves to return after hitting an object, thus calculating the distance.
-  o	Two TCRT5000 infrared sensors are placed underneath the robot to detect the color of the surface. These sensors help the robot determine if it is near the edge of the ring (typically marked by a white line) or if it is on the playing surface (typically black).
+  1.	The Ultrasonic Sensor HC-SR04 is mounted at the front of the robot to detect obstacles. It sends out ultrasonic waves and measures the time taken for the waves to return after hitting an object, thus calculating the distance.
+  2.	Two TCRT5000 infrared sensors are placed underneath the robot to detect the color of the surface. These sensors help the robot determine if it is near the edge of the ring (typically marked by a white line) or if it is on the playing surface (typically black).
   
-·	OLED Display:
-  o	The OLED display is used to show animations or the status of the robot, providing visual feedback during operation.
+·	OLED Display: 	The OLED display is used to show animations or the status of the robot, providing visual feedback during operation.
   
-·	Power Supply:
-  o	The robot is powered by four batteries housed in a battery holder, providing sufficient voltage and current to the motors and sensors.
+·	Power Supply: The robot is powered by four batteries housed in a battery holder, providing sufficient voltage and current to the motors and sensors.
   
 # Software Design
 
-·	Navigation and Obstacle Avoidance:
-  o	The robot uses the ultrasonic sensor to avoid obstacles. If an object is detected within a certain distance, the robot will change direction to avoid it.
-·	Edge Detection:
-  o	The infrared sensors constantly monitor the surface color. If a sensor detects a white surface, the robot will move away from the edge to avoid falling out of the ring.
-·	Movement and Strategy:
-  o	The motors are controlled to execute various movements such as moving forward, backward, and rotating. These movements are combined to create strategies for pushing the opponent out of the ring.
+·	Navigation and Obstacle Avoidance:	The robot uses the ultrasonic sensor to avoid obstacles. If an object is detected within a certain distance, the robot will change direction to avoid it.
+·	Edge Detection:	The infrared sensors constantly monitor the surface color. If a sensor detects a white surface, the robot will move away from the edge to avoid falling out of the ring.
+·	Movement and Strategy:	The motors are controlled to execute various movements such as moving forward, backward, and rotating. These movements are combined to create strategies for pushing the opponent out of the ring.
   
 # Code Implementation
 
-·	Initialization:
-  o	Setup pin modes for motors, sensors, and the OLED display.
+·	Initialization:	Setup pin modes for motors, sensors, and the OLED display.
 ·	Main Loop:
-  o	Continuously read sensor values and make decisions based on the sensor inputs.
-  o	Control motor speed and direction to navigate the arena and engage with the opponent.
-  o	Update the OLED display with relevant information or animations.
+  1.	Continuously read sensor values and make decisions based on the sensor inputs.
+  2. Control motor speed and direction to navigate the arena and engage with the opponent.
+  3.	Update the OLED display with relevant information or animations.
 
 # Conclusion
 Through systematic testing and optimization, the sumo robot’s sensors and motor functions were fine-tuned to enhance performance and reliability. The adjustments to sensor thresholds and motor control logic significantly improved the robot’s ability to navigate and respond to its environment, resulting in better competitive performance.
