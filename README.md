@@ -82,3 +82,5 @@ We selected this project for several reasons:
   1.	Continuously read sensor values and make decisions based on the sensor inputs.
   2. Control motor speed and direction to navigate the arena and engage with the opponent.
   3.	Update the OLED display with relevant information or animations.
+
+the news about our embedded system projects: "https://muhendislik.istinye.edu.tr/tr/haberler/gomulu-sistemler-projeleri"
